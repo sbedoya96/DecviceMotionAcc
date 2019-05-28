@@ -1,0 +1,21 @@
+<ion-header bar-dark>
+  <ion-toolbar>
+    <ion-title text-center bold style="color:blueviolet">
+      ACC
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="bag" padding >
+  <img src="https://www.femto-st.fr/sites/default/files/styles/full_width/public/articles/docs/cloud-computing_0.png?itok=PExVfEfE" alt="">
+  <div><h1> X:{{x}} </h1> </div> 
+  <div><h1> Y:{{y}} </h1> </div> 
+  <div><h1> Z:{{z}} </h1> </div> 
+  <div><h1> Timestamp:{{timeStamp}} </h1> </div> 
+
+  <ion-button class="button button-full" color="primary" (click)="start()"> Add to Dashboard</ion-button>
+  <ion-button class="button button-full" color="danger" full (click)="stop()"> Stop Listening</ion-button>
+  
+      <ion-icon name="logo-github" href=""></ion-icon>
+ 
+</ion-content>
